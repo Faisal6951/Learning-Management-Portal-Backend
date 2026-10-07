@@ -1,0 +1,106 @@
+$kind: http-example
+request:
+  url: http://localhost:5000/api/admin/users
+  method: GET
+  headers:
+    - key: Authorization
+      value: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjUsInJvbGUiOiJURUFDSEVSIiwiaWF0IjoxNzg3MDMxNTk1LCJleHAiOjE3ODcxMTc5OTV9.QOtGh4I4ug1r4vlZcLXduZilgyGVjId8qVm7_ocni4M
+      disabled: true
+      description: ""
+    - key: Authorization
+      value: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjEsInJvbGUiOiJBRE1JTiIsImlhdCI6MTc4Njk1MjUyMSwiZXhwIjoxNzg3MDM4OTIxfQ.WOOUcLovztGtoa-r2RlMSsrVDFBKY8RjsycZkb4O29A
+      disabled: false
+      description: ""
+    - key: Authorization
+      value: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjMsInJvbGUiOiJTVFVERU5UIiwiaWF0IjoxNzg3MDMyMzgwLCJleHAiOjE3ODcxMTg3ODB9.mArm4RTNfPHG-iUm5IjwWtbXA7QLbOc67WVFIFKc5YQ
+      disabled: true
+      description: ""
+  body:
+    type: json
+    content: "{\r
+
+      \    \"email\":\"immi@gmail.com\",\r
+
+      \    \"name\": \"immi\",\r
+
+      \    \"password\":\"immi123\",\r
+
+      \    \"role\": \"TEACHER\"\r
+
+      }"
+response:
+  statusCode: 200
+  statusText: OK
+  headers:
+    x-powered-by: Express
+    content-type: application/json; charset=utf-8
+    content-length: "920"
+    etag: W/"398-3SYcVTINyYH1OnwXs6h72CQyLEw"
+    date: Tue, 18 Aug 2026 06:34:43 GMT
+    connection: keep-alive
+    keep-alive: timeout=5
+  body:
+    type: json
+    content: |-
+      {
+        "success": true,
+        "data": [
+          {
+            "id": 3,
+            "name": "Sara Student",
+            "email": "sara@lmp.com",
+            "role": "STUDENT",
+            "createdAt": "2026-08-17T08:08:06.833Z"
+          },
+          {
+            "id": 4,
+            "name": "John Teacher",
+            "email": "john@lmp.com",
+            "role": "TEACHER",
+            "createdAt": "2026-08-18T05:23:01.110Z"
+          },
+          {
+            "id": 5,
+            "name": "potter Teacher",
+            "email": "potter@lmp.com",
+            "role": "TEACHER",
+            "createdAt": "2026-08-18T05:23:35.139Z"
+          },
+          {
+            "id": 6,
+            "name": "Ahmad Student",
+            "email": "ahmad@lmp.com",
+            "role": "STUDENT",
+            "createdAt": "2026-08-18T05:48:55.420Z"
+          },
+          {
+            "id": 7,
+            "name": "faisal Student",
+            "email": "faisal@lmp.com",
+            "role": "STUDENT",
+            "createdAt": "2026-08-18T05:49:07.311Z"
+          },
+          {
+            "id": 8,
+            "name": "Usama Student",
+            "email": "usama@lmp.com",
+            "role": "TEACHER",
+            "createdAt": "2026-08-18T05:50:31.073Z"
+          },
+          {
+            "id": 9,
+            "name": "faisaladnan",
+            "email": "faisaladnan@gmail.com",
+            "role": "STUDENT",
+            "createdAt": "2026-08-18T06:32:58.591Z"
+          },
+          {
+            "id": 10,
+            "name": "immi",
+            "email": "immi@gmail.com",
+            "role": "TEACHER",
+            "createdAt": "2026-08-18T06:34:18.157Z"
+          }
+        ]
+      }
+order: 1787034892913

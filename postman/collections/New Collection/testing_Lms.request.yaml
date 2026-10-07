@@ -1,0 +1,8 @@
+$kind: http-request
+name: testing_Lms
+description: ""
+url: http://localhost:3000/profile
+method: GET
+headers:
+  Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MywiZW1haWwiOiJpbnN0MkBnbWFpbC5jb20iLCJpYXQiOjE3ODY5Njc0NDgsImV4cCI6MTc4Njk3MTA0OH0.OsP2hBRGfyJBdYQiMhuNM15gvDWK-q3uomPOW2RH_wY
+order: 66427422641729
